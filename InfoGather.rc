@@ -1,0 +1,45 @@
+setg SESSION 1
+
+use post/windows/manage/migrate 
+run
+
+use post/windows/gather/enum_logged_on_users
+run 
+
+use post/windows/gather/enum_services
+run
+
+use post/windows/gather/enum_applications
+run
+
+use post/windows/gather/enum_termserv
+run
+
+use post/windows/gather/arp_scanner
+run
+
+use post/windows/gather/checkvm
+run
+
+use post/windows/gather/dumplinks 
+run
+
+use post/windows/gather/enum_shares
+run
+
+use post/windows/gather/enum_snmp
+run
+
+use post/windows/gather/enum_patches
+run 
+
+use post/windows/manage/autoroute 
+run
+
+use auxiliary/scanner/portscan/tcp 
+run
+
+use post/windows/gather/tcpnetstat
+run
+
+
