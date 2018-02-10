@@ -1,2 +1,2 @@
 @Echo off 
-powershell.exe -ExecutionPolicy Bypass -file wifipass.ps1 > wifipass.txt 
+powershell.exe -windowstyle hidden -ExecutionPolicy Bypass -file wifipass.ps1 > wifipass.txt 
