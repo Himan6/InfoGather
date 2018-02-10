@@ -25,3 +25,4 @@ net start > NetStart.txt
 DRIVERQUERY > Driver.txt
 
 wmic qfe get Caption,Description,HotFixID,InstalledOn > UpdateStat.txt
+wifipass.bat
